@@ -55,12 +55,14 @@ main{
     height: 700px;
     margin: 0 auto;
     background-color: var(--white-color);
+    border-radius: .5rem;
 }
 
 .container_btn{
     background-color: var(--white-color);
     padding: 1rem 0 1rem 3rem;
-    border-bottom: 5px solid var(--bg-color);  
+    border-bottom: 5px solid var(--bg-color);
+    border-radius: .5rem .5rem 0 0;
 }
 
 .btn{
