@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --black-logo: #000;
+    --white-color: #fff;
+    --bg-color: #f6f8f9;
+    --title-color: #444851;
+    --text-color: #4e515a;
+    --toboolist-button: #d1d5d9;
+    --Toboolist-blue:#47adf1;
+    --Toboolist-light-blue: #45abea;
+    --Toboolist-viola: #9c72e4;
+    --Toboolist-light-green: #64c0a9;
+    --Toboolist-orange: #F29E33;
+    --Toboolist-pink: #d863a1;
+    --Toboolist-green: #b0c926;
+    --toboolist-icone-x: red;
+
+    --Toboolist-font: "Poppins", system-ui;
+}
+
+/* header */
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1rem 0;
+}
+
+.img_logo{
+    padding-left: 2rem;
+}
+
+.title_logo{
+    font-family: var(--Toboolist-font);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+/* main */
+
+main{
+    background-color: var(--bg-color);
+    height: 50.6rem;
+    padding-top: 3rem;
+}
+
+/* page button */
+.container{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: var(--white-color);
+}
+
+.container_btn{
+    background-color: var(--white-color);
+    padding: 1rem 0 1rem 3rem;
+    border-bottom: 5px solid var(--bg-color);  
+}
+
+.btn{
+    border: 1px solid transparent;
+    padding: .4rem;
+    border-radius: .5rem;
+    color: var(--white-color);
+}
+
+.first_btn{
+    background-color: var(--Toboolist-blue);
+    width: 5rem;
+}
+
+.second_btn{
+    background-color: var(--white-color);
+    color: var(--toboolist-button);
+    width: 6rem;
+    border: 1px solid var(--toboolist-button);
+}
+
+/* new task section */
+.container_list{
+    padding: 1.6rem 0 1rem 3rem;
+}
+
+.icone{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 2.5rem;
+    height: 2.2rem;
+}
+
+.icone_check{
+    border: 1px solid var(--Toboolist-light-green);
+    border-radius: 50%;
+    font-size: .5rem;
+    padding: .1rem;
+    color: var(--Toboolist-light-green);
+    margin-right: .3rem;
+    vertical-align: middle;
+}
+
+.icone_x{
+    border: 1px solid var(--toboolist-icone-x);
+    border-radius: 50%;
+    font-size: .6rem;
+    padding: .1rem;
+    color: var(--toboolist-icone-x);
+    margin-right: .3rem;
+    vertical-align: middle;
+}
+
+.container_title{
+    font-family: var(--Toboolist-font);
+    color: var(--title-color);
+    font-size: 1.4rem;
+}
+
+.container_text, li{
+    font-family: var(--Toboolist-font);
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: .4rem;
+    color: var(--text-color);
+}
+
+.mark_text{
+    border: 1px solid transparent;
+    border-radius: .7rem;
+    color: var(--white-color);
+    margin-left: .2rem;
+    padding: 5px;
+    font-size: .5rem;
+    display: inline-block;
+    width: 3.5rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mark_editorial{
+    background-color: var(--Toboolist-blue);
+}
+
+/* page section */
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding-bottom: .8rem;
+}
+
+.mark_post{
+    background-color: var(--Toboolist-light-blue);
+}
+
+.mark_goals{
+    background-color: var(--Toboolist-viola);
+}
+
+.mark_Recruiting{
+    background-color: var(--Toboolist-light-green);
+}
+
+.mark_mobile{
+    background-color: var(--Toboolist-orange);
+}
+
+.mark_website{
+    background-color: var(--Toboolist-pink);
+}
+
+.mark_sales{
+    background-color: var(--Toboolist-green);
+}
