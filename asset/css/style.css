@@ -72,12 +72,12 @@ main{
     color: var(--white-color);
 }
 
-.first_btn{
+.btn_primary{
     background-color: var(--Toboolist-blue);
     width: 5rem;
 }
 
-.second_btn{
+.btn_outline{
     background-color: var(--white-color);
     color: var(--toboolist-button);
     width: 6rem;
@@ -96,24 +96,26 @@ main{
     height: 2.2rem;
 }
 
-.icone_check{
-    border: 1px solid var(--Toboolist-light-green);
+.icon{
     border-radius: 50%;
-    font-size: .5rem;
     padding: .1rem;
-    color: var(--Toboolist-light-green);
+    font-size: .8rem;
     margin-right: .3rem;
     vertical-align: middle;
+    width: 1.15rem;
+    height: 1.5rem;
+    line-height: 1.15rem;
+}
+
+.icone_check{
+    border: 1px solid var(--Toboolist-light-green);
+    color: var(--Toboolist-light-green);
+    
 }
 
 .icone_x{
     border: 1px solid var(--toboolist-icone-x);
-    border-radius: 50%;
-    font-size: .6rem;
-    padding: .1rem;
     color: var(--toboolist-icone-x);
-    margin-right: .3rem;
-    vertical-align: middle;
 }
 
 .container_title{
@@ -136,14 +138,14 @@ main{
     color: var(--white-color);
     margin-left: .2rem;
     padding: 5px;
-    font-size: .5rem;
+    font-size: .7rem;
     display: inline-block;
-    width: 3.5rem;
+    width: 3.8rem;
     text-align: center;
     vertical-align: middle;
 }
 
-.mark_editorial{
+.bg_editorial{
     background-color: var(--Toboolist-blue);
 }
 
@@ -153,29 +155,29 @@ ul{
 }
 
 li{
-    padding-bottom: .8rem;
+   padding-bottom: .8rem; 
 }
 
-.mark_post{
+.bg_post{
     background-color: var(--Toboolist-light-blue);
 }
 
-.mark_goals{
+.bg_goals{
     background-color: var(--Toboolist-viola);
 }
 
-.mark_Recruiting{
+.bg_Recruiting{
     background-color: var(--Toboolist-light-green);
 }
 
-.mark_mobile{
+.bg_mobile{
     background-color: var(--Toboolist-orange);
 }
 
-.mark_website{
+.bg_website{
     background-color: var(--Toboolist-pink);
 }
 
-.mark_sales{
+.bg_sales{
     background-color: var(--Toboolist-green);
 }
